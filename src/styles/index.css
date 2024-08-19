@@ -3,7 +3,6 @@
 
 .parent {
     scroll-behavior: smooth;
-    position: relative;
     background-color: #18181b;
     color: #ababab;
     font-family: "Montserrat", sans-serif;
@@ -21,9 +20,10 @@ nav {
     width: 100%;
     box-sizing: border-box;
     margin: 0 auto;
-    background-color: rgba(27, 27, 31, 0.995);
+    background-color: rgb(27, 27, 31);
     position: sticky;
     top: 0;
+    border-bottom: 1px solid #fff;
 }
 
 nav ul {

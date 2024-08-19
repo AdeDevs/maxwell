@@ -34,9 +34,89 @@ function Home() {
             </li>
         </ul>
       </header>
-      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
       <main id="content">
-        <h1>This the content section</h1>
+        <section className="projects">
+          <div>
+            <h2>PROJECTS</h2>
+            <h3>Digital Bits</h3>
+            <p id="icon"><ion-icon name="globe-outline"></ion-icon></p>
+            <article>
+              <h1>Lorem Is A Placeholder</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore saepe quisquam recusandae quibusdam doloribus harum impedit modi  </p>
+            </article>
+            <article>
+              <h1>Lorem Is A Placeholder</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore saepe quisquam recusandae quibusdam doloribus harum impedit modi  </p>
+            </article>
+            <article>
+              <h1>Lorem Is A Placeholder</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore saepe quisquam recusandae quibusdam doloribus harum impedit modi  </p>
+            </article>
+            <article>
+              <h1>Lorem Is A Placeholder</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore saepe quisquam recusandae quibusdam doloribus harum impedit modi  </p>
+            </article>
+            <article>
+              <h1>Lorem Is A Placeholder</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore saepe quisquam recusandae quibusdam doloribus harum impedit modi  </p>
+            </article>
+            <article>
+              <h1>Lorem Is A Placeholder</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore saepe quisquam recusandae quibusdam doloribus harum impedit modi  </p>
+            </article>
+            <article>
+              <h1>Lorem Is A Placeholder</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore saepe quisquam recusandae quibusdam doloribus harum impedit modi  </p>
+            </article>
+            <article>
+              <h1>Lorem Is A Placeholder</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore saepe quisquam recusandae quibusdam doloribus harum impedit modi  </p>
+            </article>
+            <article>
+              <h1>Lorem Is A Placeholder</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore saepe quisquam recusandae quibusdam doloribus harum impedit modi  </p>
+            </article>
+            <article>
+              <h1>Lorem Is A Placeholder</h1>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore saepe quisquam recusandae quibusdam doloribus harum impedit modi  </p>
+            </article>
+          </div>
+          <div>
+            <h2>PROJECTS</h2>
+            <h3>Physical Things</h3>
+            <p id="icon"><ion-icon name="hammer-outline"></ion-icon></p>
+            <article>
+              <h1>Physical Lorem Is Hard</h1>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio fugiat, assumenda aspernatur tempore eum quaerat aperiam magni unde.
+              </p>
+            </article>
+            <article>
+              <h1>Physical Lorem Is Hard</h1>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio fugiat, assumenda aspernatur tempore eum quaerat aperiam magni unde.
+              </p>
+            </article>
+            <article>
+              <h1>Physical Lorem Is Hard</h1>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio fugiat, assumenda aspernatur tempore eum quaerat aperiam magni unde.
+              </p>
+            </article>
+            <article>
+              <h1>Physical Lorem Is Hard</h1>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio fugiat, assumenda aspernatur tempore eum quaerat aperiam magni unde.
+              </p>
+            </article>
+            <article>
+              <h1>Physical Lorem Is Hard</h1>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odio fugiat, assumenda aspernatur tempore eum quaerat aperiam magni unde.
+              </p>
+            </article>
+          </div>
+        </section>
       </main>
 
     </div>
