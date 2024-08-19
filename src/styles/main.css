@@ -90,7 +90,6 @@
 
 ion-icon {
     margin-right: 10px;
-    position: relative;
 }
 
 .projects {
@@ -148,5 +147,18 @@ ion-icon {
     }
     .projects div {
         width: 100%;
+    }
+    .home header h1 {
+        position: static;
+    }
+    .home header h1::before {
+        position: relative;
+    }
+    .home header ul li {
+        transition: 0.6s cubic-bezier(0, 0, 0.23, 1);
+        position: static;
+    }
+    .home header ul li:hover {
+        color: #0000ff;
     }
 }
