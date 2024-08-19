@@ -1,6 +1,8 @@
+import twitter from "../assets/twitter.png"
+
 function Home() {
   return (
-    <div>
+    <div className="home">
       <header>
         <h2>ABOUT ME</h2>
         <h1>Hello, my name is Akinyemi Yusuf.</h1>
@@ -16,23 +18,23 @@ function Home() {
         <p>You can find me and some of my works on:</p>
         <ul>
             <li>
-                <a href="#">Twitter</a>
+                <a href="#"> <ion-icon name="logo-twitter"></ion-icon> Twitter</a>
             </li>
             <li>
-                <a href="#">Instagram</a>
+                <a href="#"> <ion-icon name="logo-instagram"></ion-icon> Instagram</a>
             </li>
             <li>
-                <a href="#">LinkedIn</a>
+                <a href="#"> <ion-icon name="logo-linkedin"></ion-icon> LinkedIn</a>
             </li>
             <li>
-                <a href="#">Facebook</a>
+                <a href="#"> <ion-icon name="logo-facebook"></ion-icon> Facebook</a>
             </li>
             <li>
-                <a href="#">YouTube</a>
+                <a href="#"> <ion-icon name="logo-youtube"></ion-icon> YouTube</a>
             </li>
         </ul>
       </header>
-      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
+      <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
       <main id="content">
         <h1>This the content section</h1>
       </main>

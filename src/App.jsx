@@ -16,8 +16,8 @@ function App() {
           <li>
             <NavLink to="/sponsorship"> Sponsorships </NavLink> 
           </li>
-          <li>Lists</li>
-          <li>Now</li>
+          {/* <li>Lists</li>
+          <li>Now</li> */}
         </ul>
       </nav>
       
