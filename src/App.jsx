@@ -1,23 +1,30 @@
 import { NavLink, Route, Routes } from "react-router-dom"
-import TestHome from "./pages/test"
+import Home from "./pages/home"
+import Sponsorship from "./pages/sponsor"
 
 function App() {
   return (
-    <div>
+    <div className="parent">
       <nav>
         <ul>
-          <li> <NavLink to="/">Home </NavLink> </li>
-          <li> <NavLink to="/test">Content </NavLink></li>
-          <li>Sponsorships</li>
+          <li> 
+            <NavLink to="/">Home </NavLink>
+          </li>
+          <li> 
+            <a href="/#content">Content </a>
+          </li>
+          <li>
+            <NavLink to="/sponsorship"> Sponsorships </NavLink> 
+          </li>
           <li>Lists</li>
           <li>Now</li>
         </ul>
       </nav>
+      
       <Routes>
-        <Route path="/" element={App} />
-        <Route path="/test" element={<TestHome/>} />
+        <Route path="/" element={<Home />}/>
+        <Route path="/sponsorship" element={ <Sponsorship/> } />
       </Routes>
-      <h1>This is the home page</h1>
     </div>
   )
 }
