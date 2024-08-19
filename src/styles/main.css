@@ -95,6 +95,10 @@ ion-icon {
     .home {
         width: 90%;
         margin: 0 auto;
+        background-color: red;
+    }
+    .home header p {
+        width: 100%;
     }
     .home header ul {
         display: block;
