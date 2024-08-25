@@ -1,6 +1,12 @@
 .home {
   width: 80%;
   margin: 0 auto;
+  height: 90vh;
+  overflow: scroll;
+}
+
+.home::-webkit-scrollbar {
+    display: none;
 }
 
 .home header {
@@ -147,18 +153,5 @@ ion-icon {
     }
     .projects div {
         width: 100%;
-    }
-    .home header h1 {
-        position: static;
-    }
-    .home header h1::before {
-        position: relative;
-    }
-    .home header ul li {
-        transition: 0.6s cubic-bezier(0, 0, 0.23, 1);
-        position: static;
-    }
-    .home header ul li:hover {
-        color: #0000ff;
     }
 }
