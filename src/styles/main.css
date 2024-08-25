@@ -70,7 +70,7 @@
     box-sizing: border-box;
 }
 
-.home header ul li {
+.home header ul li, #youtube, #instagram, #twitter, #facebook, #linkedin {
     background-color: red;
   font-size: 17px;
   margin: 20px 0;
@@ -78,7 +78,7 @@
   transition: all 0.8s cubic-bezier(0, 0, 0.23, 1);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  background-image: linear-gradient(90deg, #0000ff, #006aff 50%, #ffffff 0);
+  background-image: linear-gradient(90deg, #0000ff, #006aff,  50%, #ababab 0);
   background-size: 200% 100%;
   background-position: 100%;
   position: relative;
@@ -87,6 +87,46 @@
     background-position: 0;
     color: #0300e2;
   }
+}
+
+#youtube {
+    background-image: linear-gradient(90deg, #FF0000, #FF0000 50%, #ababab 0);
+    margin:  0;
+    &:hover {
+        color: #FF0000;
+    }
+}
+
+#facebook {
+    background-image: linear-gradient(90deg, #1877F2, #1877F2 50%, #ababab 0);
+    margin:  0;
+    &:hover {
+        color: #1877F2;
+    }
+}
+
+#linkedin {
+    background-image: linear-gradient(90deg, #0077B5, #0077B5 50%, #ababab 0);
+    margin:  0;
+    &:hover {
+        color: #0077B5;
+    }
+}
+
+#instagram {
+    background-image: linear-gradient(90deg, #fa7e1e, #d62976, 50%, #ababab 0);
+    margin: 0 0;
+    &:hover {
+        color: #d62976;
+    }
+}
+
+#twitter {
+    background-image: linear-gradient(90deg, #1DA1F2, #1DA1F2, 50%, #ababab 0);
+    margin: 0 0;
+    &:hover {
+        color: #1DA1F2;
+    }
 }
 
 .home header ul li a {

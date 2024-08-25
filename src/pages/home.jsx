@@ -18,19 +18,19 @@ function Home() {
         <p>You can find me and some of my works on:</p>
         <ul>
             <li>
-                <a href="#"> <ion-icon name="logo-twitter"></ion-icon> Twitter</a>
+                <a href="#" id="twitter"> <ion-icon name="logo-twitter"></ion-icon> Twitter</a>
             </li>
             <li>
-                <a href="#"> <ion-icon name="logo-instagram"></ion-icon> Instagram</a>
+                <a href="#" id="instagram"> <ion-icon name="logo-instagram"></ion-icon> Instagram</a>
             </li>
             <li>
-                <a href="#"> <ion-icon name="logo-linkedin"></ion-icon> LinkedIn</a>
+                <a href="#" id="linkedin"> <ion-icon name="logo-linkedin"></ion-icon> LinkedIn</a>
             </li>
             <li>
-                <a href="#"> <ion-icon name="logo-facebook"></ion-icon> Facebook</a>
+                <a href="#" id="facebook"> <ion-icon name="logo-facebook"></ion-icon> Facebook</a>
             </li>
             <li>
-                <a href="#"> <ion-icon name="logo-youtube"></ion-icon> YouTube</a>
+                <a href="#" id="youtube"> <ion-icon name="logo-youtube"></ion-icon> YouTube</a>
             </li>
         </ul>
       </header>
