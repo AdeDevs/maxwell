@@ -21,7 +21,6 @@
   font-weight: bold;
   font-size: 17px;
 }
-
 .home header h1 {
   transition: 0.5s ease-in-out;
   transition-timing-function: ease-in;
@@ -29,6 +28,7 @@
   cursor: pointer;
   font-size: 25px;
   font-weight: 400;
+  margin-top: 20px;
   width: fit-content;
 }
 

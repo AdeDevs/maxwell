@@ -5,7 +5,7 @@ function Home() {
     <div className="home">
       <header>
         <h2>ABOUT ME</h2>
-        <h1>Hello, my name is Akinyemi Yusuf.</h1>
+        <h1>Hello, my name is Akinyemi Yusuf.</h1> 
         <p>
           I'm a Lorem ipsum dolor sit, amet consectetur adipisicing elit. Delectus, reprehenderit in voluptas eligendi perspiciatis. With experience in Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, natus officia id voluptas soluta, quod explicabo excepturi repellendus quae?
         </p>
