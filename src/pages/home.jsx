@@ -1,5 +1,3 @@
-import twitter from "../assets/twitter.png"
-
 function Home({contentRef}) {
   return (
     <div className="home">

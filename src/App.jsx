@@ -7,29 +7,32 @@ function App() {
   const navigate = useNavigate();
   const contentRef = useRef(null);
 
-  const handleScrollToContent = () => {
-    navigate('/'); // Ensure you are on the home page
-    contentRef.current.scrollIntoView({ behavior: 'smooth' });
+  const handleScrollToContent = (event) => {
+    event.preventDefault(); // Prevent default navigation behavior
+    navigate('/'); // Navigate to home page
+    setTimeout(() => {
+      if (contentRef.current) {
+        contentRef.current.scrollIntoView({ behavior: 'smooth' });
+      }
+    }, 0); // Ensure smooth scrolling after navigation
   };
 
   return (
     <div className="parent">
       <nav>
         <ul>
-          <li> 
-            <NavLink to="/">Home </NavLink>
-          </li>
-          <li> 
-            <NavLink onClick={handleScrollToContent}>
-              Content
-            </NavLink>
+          <li>
+            <NavLink to="/">Home</NavLink>
           </li>
           <li>
-            <NavLink to="/sponsorship"> Sponsorships </NavLink> 
+            <a href="/" onClick={handleScrollToContent}>Content</a>
+          </li>
+          <li>
+            <NavLink to="/sponsorship">Sponsorships</NavLink>
           </li>
         </ul>
       </nav>
-      
+
       <Routes>
         <Route path="/" element={<Home contentRef={contentRef} />} />
         <Route path="/sponsorship" element={<Sponsorship />} />
