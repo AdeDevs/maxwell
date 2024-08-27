@@ -181,7 +181,6 @@ ion-icon {
     .home {
         width: 90%;
         margin: 0 auto;
-        height: ;
         top: 11.5%;
     }
     .home header p {
@@ -225,8 +224,15 @@ ion-icon {
     }
 }
 
-@media screen and (width:375px) {
+@media screen and (max-width:375px) {
     .home {
         top: 12.5%;
+    }
+}
+
+@media screen and (max-width:429px) {
+    .home {
+        top: 12.2%;
+        background-color: red;
     }
 }
