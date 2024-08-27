@@ -237,3 +237,9 @@ ion-icon {
     }
 }
 
+@media screen and (max-height: 1020px ) and (min-height: 1000px) {
+    .home {
+        background-color: navajowhite;
+        top: 8.8%;
+    }
+}
