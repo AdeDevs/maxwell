@@ -1,6 +1,6 @@
 import twitter from "../assets/twitter.png"
 
-function Home() {
+function Home({contentRef}) {
   return (
     <div className="home">
       <header>
@@ -34,7 +34,7 @@ function Home() {
             </li>
         </ul>
       </header>
-      <main id="content">
+      <main id="content" ref={contentRef}>
         <section className="projects">
           <div>
             <h2>PROJECTS</h2>
