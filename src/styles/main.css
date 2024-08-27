@@ -200,10 +200,17 @@ ion-icon {
     }
 }
 
-@media screen and (max-width:430px) {
+@media screen and (max-width:445px) {
 .home {
     top: 9.2%;
 }
+}
+
+@media screen and (width:429px) {
+    .home {
+        top: 12.2%;
+        background-color: red;
+    }
 }
 
 @media screen and (max-width:395px) {
@@ -218,21 +225,15 @@ ion-icon {
     }
 }
 
-@media screen and (width:344px) {
-    .home {
-        top: 9.8%;
-    }
-}
-
 @media screen and (max-width:375px) {
     .home {
         top: 12.5%;
     }
 }
 
-@media screen and (max-width:429px) {
+@media screen and (width:344px) {
     .home {
-        top: 12.2%;
-        background-color: red;
+        top: 9.8%;
     }
 }
+
